@@ -90,9 +90,9 @@ for(var i = 0; i < addBtn.length; i++){
         // 3
         console.log(this);
         // 4
-        console.log(this.previusElementSibling);
+        console.log(this.previousElementSibling);
         // 5
-        var check = this.previusElementSibling;
+        var check = this.previousElementSibling;
         // 6
         check.checked = !check.checked;                  /* posso utilizzare la proprietà .checked perchè con .previusElementSibling 
                                                           ho associato lo span di add alla input (fratello a parità di indentazione precedente) */
